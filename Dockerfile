@@ -13,8 +13,8 @@ RUN apt-get update \
     && add-apt-repository ppa:fcwu-tw/ppa \
     && apt-get update \
     && apt-get install -y --no-install-recommends --allow-unauthenticated \
-        supervisor \
-        openssh-server pwgen sudo vim-tiny \
+        supervisor pwgen sudo vim-tiny \
+        openssh-server openssh-client \
         net-tools \
         lxde x11vnc xvfb \
         gtk2-engines-murrine ttf-ubuntu-font-family \
